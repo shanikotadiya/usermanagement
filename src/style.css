@@ -1,0 +1,250 @@
+.body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-box {
+    height: 70vh;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: solid;
+    border-width: thin;
+}
+
+.input-items {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input[type=text]:focus {
+    outline: 2px solid skyblue;
+}
+
+input[type=password]:focus {
+    outline: 2px solid skyblue;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* padding-top: px; */
+
+}
+
+input {
+    width: 65%;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    font-size: small;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+
+.forgotpassword {
+    display: flex;
+    align-self: flex-start;
+    font-size: small;
+    text-decoration: none;
+    padding-left: 62px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 110px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.registrean-box {
+    height: 80vh;
+    width: 350px;
+    border: solid;
+    border-width: thin;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reg-login-route {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+}
+
+.reg-login-label {
+    font-size: small;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-text {
+    margin-top: 10px;
+}
+
+
+
+.modal-content {
+    height: 60vh;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.model-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+#exampleModalLabel {
+    text-align: center !important;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.table-nav-button {
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table-nav {
+    width: 60%;
+    height: 50px;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5px;
+    align-items: center;
+}
+
+.table-h2 {
+    text-align: center !important;
+    margin: 0;
+}
+
+.user-lable {
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.label {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    background-color: yellow;
+    border-radius: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+th,
+tr,
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* for profile uploading */
+.profile-pic-upload {
+    text-align: center;
+}
+
+.profile-pic-label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.profile-pic-input {
+    display: none;
+}
